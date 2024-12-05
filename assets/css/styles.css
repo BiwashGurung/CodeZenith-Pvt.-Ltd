@@ -346,15 +346,54 @@ html, body {
 
 
 
+/* Payment Section Styles */
+.payment-section {
+  /* background-color: #f9f9f9; */
+  background-image: url(../images/navyBlue-Background.jpg);
+}
+
+.payment-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.payment-text {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.qr-code-image {
+  border: 1px solid #ddd;
+}
+
+.accepted-title {
+  font-size: 2rem;
+  color: #fff;
+}
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Whats app icon CSS  */
 .whatsapp_float {
   position: fixed;
   width: 60px;
   height: 60px;
-  bottom: 40px;
+  bottom: 20px;
   right: 40px;
   background-color: #25d366;
   color: #fff;
@@ -368,7 +407,7 @@ html, body {
   margin-top: 16px;
 }
 
-/* for mobile */
+/*Whatsapp  for mobile */
 @media screen and (max-width: 767px){
   .whatsapp-icon {
     margin-top: 10px;
