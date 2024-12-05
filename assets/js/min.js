@@ -1,3 +1,14 @@
+//smooth scrolling behaviour for older browser
+  document.querySelector('.btn').addEventListener('click', function (e) {
+    e.preventDefault();
+    document.querySelector('#solutions-section').scrollIntoView({ 
+      behavior: 'smooth' 
+    });
+  });
+
+
+
+  
 // for number incresing animation of Statistics Section
 document.addEventListener("DOMContentLoaded", () => {
   const statsContainer = document.querySelector(".stats-container");
